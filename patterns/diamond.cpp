@@ -18,8 +18,8 @@ int main() {
         std::cout<<"\n";
     }
     
-    for (int i = 0; i < n; ++i)
-    {
+    for (int i = 1; i < n; ++i)
+    {//crucial that it starts at 1 since it is not a perfect diamond without that
         for (int j = 0; j < i; ++j)
         {
             std::cout<<" ";
